@@ -33,5 +33,6 @@ pip install opencv-python
 <img align="left" width="400" height="300" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/input%20images/avg.jpg">
 <img width="400" height="300" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/output/2019-05-2910:58:58.jpg">
 
-
 some character names are displayed as unknown cause i did not include thire images in dataset while training.
+## Authors
+* **Ajinkya Gholape** 
