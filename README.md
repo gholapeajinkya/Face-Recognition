@@ -1,13 +1,36 @@
 # Face-Recognition
-Recognizing faces of marvel avengers characters from input imges
-If we gave input image of an avengers character then this program file(recognize_faces_image.py) will recognize face & display (or store the image in output folder) along with character name.
+The main purpose of this project to identifying or verifying a person from a digital image. Face/Facial Recognition has a variety of application in fields like social media, access & security, criminal identification, etc.
+## Getting Started
 
-**Here I have gave an example:**
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Prerequisites
+* Python 3
+### Installing
+A step by step series of examples that tell you how to get a development env running
+1. [Click here](https://www.python.org/downloads/) to download **python 3**
+2. **face_recognition**
+```
+pip install face_recognition
+```
+3. **argparse**
+```
+pip install argparse
+```
+4. **opencv**
+```
+pip install opencv-python
+```
+5. **pickle**
+```
+pip install pickle
+```
+5. **opencv**
+```
+pip install opencv-python
+```
+## Running the tests
 
-an **input image** which contains some faces of marvel avengers characters 
+<img align="left" width="500" height="400" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/input%20images/avg.jpg">
 
-![alt text](https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/input%20images/avg.jpg)
-
-**output will be like this**
-![alt text](https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/output/2019-05-2910:58:58.jpg)
+<img width="400" height="500" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/output/2019-05-2910:58:58.jpg">
 some character names are displayed as unknown cause i did not include thire images in dataset while training.
