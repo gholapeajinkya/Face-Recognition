@@ -24,10 +24,7 @@ pip install opencv-python
 ```
 pip install pickle
 ```
-5. **opencv**
-```
-pip install opencv-python
-```
+
 ## Running the tests
 
 <img align="left" width="400" height="300" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/input%20images/avg.jpg">
