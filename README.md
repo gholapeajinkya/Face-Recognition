@@ -6,7 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 * Python 3
 ### Installing
-A step by step series of instruction that tell you how to get a development env running
+A step by step series of instructions that tell you how to get a development environment running
 1. [Click here](https://www.python.org/downloads/) to download **python 3**
 2. **face_recognition**
 ```
