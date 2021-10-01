@@ -9,6 +9,7 @@ import os
 import datetime
 
 path = "output/"
+# This is the name of Image file that we will save 
 currentDT = datetime.datetime.now() 
 ap = argparse.ArgumentParser()
 ap.add_argument("-e", "--encodings", required=True,
@@ -20,6 +21,7 @@ ap.add_argument("-d", "--detection-method", type=str, default="cnn",
 args = vars(ap.parse_args())
 
 print("[INFO] loading encodings...")
+# Load pickle object as in read byte mode
 data = pickle.loads(open(args["encodings"], "rb").read())
 
 image = cv2.imread(args["image"])
