@@ -62,5 +62,5 @@ for ((top, right, bottom, left), name) in zip(boxes, names):
 
 cv2.imwrite(os.path.join(path , currentDT.strftime("%Y-%m-%d%_H:%M:%S.jpg")),image)
 print("Image Saved")
-#cv2.imshow("Image", image)
-#cv2.waitKey(0)
+cv2.imshow("Image", image)
+cv2.waitKey(0)
