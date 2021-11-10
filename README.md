@@ -1,5 +1,7 @@
 # Face-Recognition
 The main purpose of this project to identifying or verifying a person from a digital image. Face/Facial Recognition has a variety of application in fields like social media, access & security, criminal identification, etc.
+
+<img src="https://img.shields.io/github/forks/ajinkyagholape1998/Face-Recognition.svg"/>
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
